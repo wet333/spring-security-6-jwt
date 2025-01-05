@@ -1,6 +1,6 @@
 package com.wetagustin.springapi.security;
 
-import com.wetagustin.springapi.models.User;
+import com.wetagustin.springapi.security.models.User;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

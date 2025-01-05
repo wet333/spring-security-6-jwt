@@ -1,4 +1,4 @@
-package com.wetagustin.springapi.models;
+package com.wetagustin.springapi.security.models;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

@@ -1,4 +1,4 @@
-package com.wetagustin.springapi.security.dtos;
+package com.wetagustin.springapi.security.dto;
 
 import lombok.Builder;
 import lombok.Data;

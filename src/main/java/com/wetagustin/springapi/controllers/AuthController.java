@@ -1,15 +1,15 @@
 package com.wetagustin.springapi.controllers;
 
 import com.wetagustin.springapi.dto.basic.BasicHTTPResponseBody;
-import com.wetagustin.springapi.models.Role;
-import com.wetagustin.springapi.models.User;
-import com.wetagustin.springapi.repositories.RoleRepository;
-import com.wetagustin.springapi.repositories.UserRepository;
+import com.wetagustin.springapi.security.models.Role;
+import com.wetagustin.springapi.security.models.User;
+import com.wetagustin.springapi.security.repositories.RoleRepository;
+import com.wetagustin.springapi.security.repositories.UserRepository;
 import com.wetagustin.springapi.security.JwtUtils;
 import com.wetagustin.springapi.security.configurations.Roles;
-import com.wetagustin.springapi.security.dtos.JwtSignInRequest;
-import com.wetagustin.springapi.security.dtos.JwtSignUpRequest;
-import com.wetagustin.springapi.security.dtos.JwtTokenResponse;
+import com.wetagustin.springapi.security.dto.JwtSignInRequest;
+import com.wetagustin.springapi.security.dto.JwtSignUpRequest;
+import com.wetagustin.springapi.security.dto.JwtTokenResponse;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.*;

@@ -1,6 +1,6 @@
-package com.wetagustin.springapi.repositories;
+package com.wetagustin.springapi.security.repositories;
 
-import com.wetagustin.springapi.models.Role;
+import com.wetagustin.springapi.security.models.Role;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

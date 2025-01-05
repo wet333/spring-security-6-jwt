@@ -1,7 +1,7 @@
 package com.wetagustin.springapi.security;
 
-import com.wetagustin.springapi.models.Role;
-import com.wetagustin.springapi.repositories.RoleRepository;
+import com.wetagustin.springapi.security.models.Role;
+import com.wetagustin.springapi.security.repositories.RoleRepository;
 import com.wetagustin.springapi.security.configurations.Roles;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;

@@ -1,6 +1,6 @@
 package com.wetagustin.springapi.security;
 
-import com.wetagustin.springapi.models.User;
+import com.wetagustin.springapi.security.models.User;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.security.Keys;
